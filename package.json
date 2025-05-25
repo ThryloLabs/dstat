@@ -1,0 +1,56 @@
+{
+  "name": "@thrylolabs/dstat",
+  "version": "1.0.0",
+  "description": "A fast, elegant CLI to analyze directory size, structure, and file statistics. Built by Thrylo Labs.",
+  "homepage": "https://github.com/ThryloLabs/dstat#readme",
+  "bugs": {
+    "url": "https://github.com/ThryloLabs/dstat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThryloLabs/dstat.git"
+  },
+  "license": "MIT",
+  "author": "Thrylo Labs",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "thry": "./bin/thry.js"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "start": "node ./bin/thry.js",
+    "lint": "eslint . --ext .ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "directory",
+    "size",
+    "stats",
+    "tree",
+    "markdown",
+    "thrylo",
+    "thry",
+    "dstat"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.2.0",
+    "globby": "^13.2.2",
+    "ignore": "^5.3.1",
+    "pretty-bytes": "^6.1.1",
+    "treeify": "^1.1.0",
+    "clipboardy": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "eslint": "^8.55.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
