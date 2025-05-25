@@ -2,6 +2,14 @@
 
 import { Command } from "commander";
 import { analyzeDirectory } from "../lib/analyze.js";
+import { readFileSync } from "fs";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const packageJson = JSON.parse(
+  readFileSync(join(__dirname, "../package.json"))
+);
+const version = packageJson.version;
 
 if (process.env.THRY_CLI !== "1") {
   console.error("⛔ Please run this command via: thry <command>");
@@ -27,6 +35,7 @@ Examples:
   $ dstat src --ext --exclude node_modules,build
   $ dstat . -o report.md -c`
   )
+  .version(version, "-v, --version", "Show version")
   .argument("[dir]", "Target directory", ".")
   .allowUnknownOption(true)
   .enablePositionalOptions()

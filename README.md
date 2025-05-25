@@ -4,8 +4,8 @@
 Built by [Thrylo Labs](https://github.com/ThryloLabs).
 
 ![npm](https://img.shields.io/npm/v/@thrylolabs/dstat)
-![license](https://img.shields.io/npm/l/@thrylolabs/dstat)
-![issues](https://img.shields.io/github/issues/ThryloLabs/dstat)
+![license](https://img.shields.io/badge/license-MIT-blue)
+![downloads](https://img.shields.io/npm/dm/@thrylolabs/dstat)
 
 ---
 
