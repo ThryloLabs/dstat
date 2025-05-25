@@ -23,14 +23,16 @@ Built by [Thrylo Labs](https://github.com/ThryloLabs)
 
 ## 📦 Installation
 
+Make sure `thry` is installed first.
+
 ```bash
-npm install -g @thrylolabs/dstat
+npm install -g @thrylolabs/thry
 ```
 
-Or use via `npx`:
+Install `dstat`.
 
 ```bash
-npx @thrylolabs/dstat .
+thry install dstat
 ```
 
 ---
