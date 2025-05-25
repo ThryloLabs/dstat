@@ -125,4 +125,4 @@ Check out our work: [https://github.com/ThryloLabs](https://github.com/ThryloLab
 
 ## 📄 License
 
-MIT © Thrylo Labs
+[MIT](LICENSE) © Thrylo Labs
