@@ -1,11 +1,10 @@
 # 📊 dstat — Directory Statistics CLI
 
 **A fast, elegant CLI to analyze directory size, structure, and file statistics.**  
-Built by [Thrylo Labs](https://github.com/ThryloLabs)
+Built by [Thrylo Labs](https://github.com/ThryloLabs).
 
 ![npm](https://img.shields.io/npm/v/@thrylolabs/dstat)
-![license](https://img.shields.io/github/license/ThryloLabs/dstat)
-![node](https://img.shields.io/node/v/@thrylolabs/dstat)
+![license](https://img.shields.io/npm/l/@thrylolabs/dstat)
 ![issues](https://img.shields.io/github/issues/ThryloLabs/dstat)
 
 ---
@@ -103,19 +102,6 @@ my-project/
 │   └── index.html
 └── README.md
 ```
-
----
-
-## 📌 Features Roadmap
-
-- [] Size stats per file and extension
-- [] Directory tree output
-- [] `.gitignore` support
-- [] Hidden file toggle
-- [] Clipboard copy
-- [] Markdown export
-- [ ] Visualization mode (pie chart/bar chart)
-- [ ] VSCode plugin integration
 
 ---
 
